@@ -1,0 +1,262 @@
+/* body {
+    font-family: Arial, sans-serif;
+    background-color:BLACK;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:active {
+    background-color: #3e8e41;
+} */
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.left-section {
+    width: 30%;
+}
+
+.right-section {
+    width: 68%;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+form {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="number"],
+form input[type="text"],
+form input[type="email"] {
+    width: calc(100% - 22px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #444;
+    color: #fff;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+form button:active {
+    background-color: #3e8e41;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #555;
+    color: #fff;
+}
+ */
+
+ /* Reset default margin and padding */
+ 
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, figure, figcaption, blockquote, dl, dd {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222; /* Dark background color */
+    color: #fff; /* Light text color */
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px; /* Adjust according to your layout */
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+}
+
+.left-section {
+    width: 30%;
+    margin-right: 20px;
+}
+
+.right-section {
+    width: 68%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #fff; /* Light heading text color */
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+form {
+    background-color: #333; /* Dark form background */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #ddd; /* Light label text color */
+}
+
+form input[type="number"],
+form input[type="text"],
+form input[type="email"] {
+    width: calc(100% - 22px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #444; /* Dark input background */
+    color: #fff; /* Light input text color */
+}
+
+form button {
+    background-color: #4CAF50; /* Green button color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+form button:active {
+    background-color: #3e8e41; /* Darker green on click */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #555; /* Dark table header background */
+    color: #fff; /* Light table header text color */
+}
+
+tr:nth-child(even) {
+    background-color: #444; /* Dark table row background */
+}
+
+tr:hover {
+    background-color: #333; /* Darker table row on hover */
+}
+
+button {
+    background-color: #333; /* Dark button color */
+    color: #fff; /* Light button text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #555; /* Darker button on hover */
+}
